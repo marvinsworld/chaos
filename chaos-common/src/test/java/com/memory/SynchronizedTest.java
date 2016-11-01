@@ -8,11 +8,16 @@ package com.memory;
  * @since 2016/10/27 14:50
  */
 public class SynchronizedTest {
-    public void method() {
+    public void methodA() {
         synchronized (this) {
             System.out.println("Method 1 start");
         }
     }
 
-
+    public void methodB() {
+        synchronized (SynchronizedTest.class) {
+            //TODO
+        }
+    }
 }
+

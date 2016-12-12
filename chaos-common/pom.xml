@@ -115,6 +115,11 @@
             <scope>test</scope>
         </dependency>
         <!-- junit -->
+
+        <dependency>
+            <groupId>com.sun.tools.btrace</groupId>
+            <artifactId>btrace-client</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

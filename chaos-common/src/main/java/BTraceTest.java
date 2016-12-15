@@ -4,10 +4,6 @@ import java.io.InputStreamReader;
 
 public class BTraceTest {
     public int add(int a, int b) throws IOException {
-        if (a == 1) {
-            throw new IOException("异常");
-        }
-
         return a + b;
     }
 
@@ -18,9 +14,7 @@ public class BTraceTest {
         for (int i = 0; i < 10; i++) {
             String arg = reader.readLine();
 
-            int a = Integer.parseInt(arg);
-
-            //int a  = (int)Math.round(Math.random()*1000);
+            int a = (int) Math.round(Math.random() * 1000);
             int b = (int) Math.round(Math.random() * 1000);
             try {
                 System.out.println(traceTest.add(a, b));

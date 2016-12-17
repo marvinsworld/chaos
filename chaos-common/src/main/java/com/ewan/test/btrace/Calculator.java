@@ -1,15 +1,17 @@
+package com.ewan.test.btrace;
+
 import java.util.Scanner;
 
 public class Calculator {
 
     public int add(int a, int b) {
         int c = a + b;
-        System.out.println("c");
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        //System.out.println("c");
+        //try {
+        //    Thread.sleep(2000);
+        //} catch (InterruptedException e) {
+        //    e.printStackTrace();
+        //}
         return c;
     }
 
@@ -23,5 +25,4 @@ public class Calculator {
             System.out.printf(String.format("%d + %d = %d", a, b, c));
         }
     }
-
 }

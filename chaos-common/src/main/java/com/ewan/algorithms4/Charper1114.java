@@ -41,7 +41,7 @@ public class Charper1114 {
      * @param n 接受一个整型参数N
      * @return 不大于log2N的最大整数
      */
-    private static int forLoop(int n) {
+    private static int whileLoop(int n) {
         int result = 0;
         while (n > 1) {//1.确定循环的最小值
             n = n / 2;//2.尝试缩小范围
@@ -53,6 +53,6 @@ public class Charper1114 {
 
     public static void main(String[] args) {
         System.out.println(recursion(50));
-        System.out.println(forLoop(50));
+        System.out.println(whileLoop(50));
     }
 }

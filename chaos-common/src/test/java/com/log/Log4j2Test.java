@@ -11,6 +11,6 @@ public class Log4j2Test {
     private static final Logger LOGGER = LoggerFactory.getLogger(Log4j2Test.class);
 
     public static void main(String[] args) {
-        LOGGER.error("test");
+        LOGGER.debug("test");
     }
 }

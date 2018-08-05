@@ -1,6 +1,3 @@
-/**
- * Copyright (c) 2010-2017 meituan.com. All Rights Reserved.
- */
 package com.str;
 
 import org.codehaus.jackson.map.DeserializationConfig;
